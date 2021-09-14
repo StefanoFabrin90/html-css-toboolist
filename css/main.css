@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 0;
+    
     box-sizing: border-box;
     font-family: san-serif;
 }
@@ -30,14 +30,13 @@ header{
     width: 70%;
     margin: 50px auto;
     background-color:white;
-    border: grey solid 1px;
 }
 
 .main-navigator{
     border: lightgrey solid 1px;
 }
 
-.navigator{ 
+.navigation{ 
     display: inline-block;
     width: 200px;
     height: 40px;
@@ -46,9 +45,10 @@ header{
     border-radius: 10px;
     line-height: 40px;
     text-align: center;
+    margin-left: 40px;
 }
 
-.navigator-1{
+.navigation-1{
     display: inline-block;
     width: 200px;
     height: 40px;
@@ -59,9 +59,20 @@ header{
     text-align: center;
 }
 
+hr{
+    margin-bottom: 30px;
+    margin-top: -10px;
+    color: lightgrey;
+}
+
+.table{
+    margion: 20px;
+}
+
 h3 {
     font-size: 30px;
     margin-bottom: 20px;
+    margin-left: 40px;
 }
 
 .entities-done{
