@@ -29,7 +29,8 @@ header{
 .main{
     width: 70%;
     margin: 50px auto;
-    background-color: aqua;
+    background-color:white;
+    border: grey solid 1px;
 }
 
 .main-navigator{
@@ -60,13 +61,22 @@ header{
 
 h3 {
     font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .entities-done{
     color: green;
     width: 50px;
     height: 50px;
-    background-color: white;
+    border: green solid 1px;
+    border-radius: 50%;
+}
+
+.entities-todo{
+    color:red;
+    width: 60px;
+    height: 60px;
+    border: red solid 1px;
     border-radius: 50%;
 }
 
@@ -84,6 +94,7 @@ h3 {
     line-height: 20px;
     text-align: center;
 }
+
 .badge-1 { 
     display: inline-block;
     width: 100px;
@@ -94,6 +105,7 @@ h3 {
     line-height: 20px;
     text-align: center;
 }
+
 .badge-2 { 
     display: inline-block;
     width: 100px;
@@ -104,12 +116,35 @@ h3 {
     line-height: 20px;
     text-align: center;
 }
+
 .badge-3 { 
     display: inline-block;
     width: 100px;
     height: 20px;
     margin: 20px 20px;
     background-color:orange;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.badge-4 { 
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 20px 20px;
+    background-color:palevioletred;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.badge-5 { 
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 20px 20px;
+    background-color:limegreen;
     border-radius: 10px;
     line-height: 20px;
     text-align: center;
