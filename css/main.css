@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: san-serif;
+}
+
+header{
+    height: 50px;
+}
+
+.logo {
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.logo-text {
+    font-size: 40px;
+    line-height: 50px;
+}
