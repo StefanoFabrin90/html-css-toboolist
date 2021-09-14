@@ -5,8 +5,14 @@
     font-family: san-serif;
 }
 
+body{
+    background-color: #e9e8e8;
+}
+
 header{
-    height: 50px;
+    height: 70px;
+    border: lightgrey solid 1px;
+    background-color: white;
 }
 
 .logo {
@@ -19,3 +25,36 @@ header{
     font-size: 40px;
     line-height: 50px;
 }
+
+.main{
+    width: 70%;
+    margin: 50px auto;
+    background-color: aqua;
+}
+
+.main-navigator{
+    border: lightgrey solid 1px;
+}
+
+.navigator{ 
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin: 20px 20px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.navigator-1{
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin: 20px 20px;
+    background-color: white;
+    border-radius: 5px;
+    line-height: 40px;
+    text-align: center;
+}
+
