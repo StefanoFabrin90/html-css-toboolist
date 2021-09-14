@@ -57,3 +57,61 @@ header{
     line-height: 40px;
     text-align: center;
 }
+
+h3 {
+    font-size: 30px;
+}
+
+.entities-done{
+    color: green;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.text{
+    font-size: 18px;
+}
+
+.badge { 
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 20px 20px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.badge-1 { 
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 20px 20px;
+    background-color: purple;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.badge-2 { 
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 20px 20px;
+    background-color:green;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+.badge-3 { 
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin: 20px 20px;
+    background-color:orange;
+    border-radius: 10px;
+    line-height: 20px;
+    text-align: center;
+}
+
