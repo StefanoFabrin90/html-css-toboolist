@@ -1,163 +1,126 @@
-* {
-    margin: 0px;
-    
+/* genera style */
+
+*{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: san-serif;
 }
 
 body{
-    background-color: #e9e8e8;
+    background-color: lightgrey;
+    font-family: sans-serif;
 }
+
+/* header */
 
 header{
-    height: 70px;
-    border: lightgrey solid 1px;
     background-color: white;
+    margin-bottom: 40px;
+    padding: 10px 20px;
 }
 
-.logo {
+.logo{
     vertical-align: middle;
-    margin-right: 5px;
-    margin-left: 10px;
+
 }
 
-.logo-text {
-    font-size: 40px;
-    line-height: 50px;
-}
-
-.main{
-    width: 70%;
-    margin: 50px auto;
-    background-color:white;
-}
-
-.main-navigator{
-    border: lightgrey solid 1px;
-}
-
-.navigation{ 
-    display: inline-block;
-    width: 200px;
-    height: 40px;
-    margin: 20px 20px;
-    background-color: dodgerblue;
-    border-radius: 10px;
-    line-height: 40px;
-    text-align: center;
-    margin-left: 40px;
-}
-
-.navigation-1{
-    display: inline-block;
-    width: 200px;
-    height: 40px;
-    margin: 20px 20px;
-    background-color: white;
-    border-radius: 5px;
-    line-height: 40px;
-    text-align: center;
-}
-
-hr{
-    margin-bottom: 30px;
-    margin-top: -10px;
-    color: lightgrey;
-}
-
-.table{
-    margion: 20px;
-}
-
-h3 {
+.logo-text{
+    font-weight: bold;
+    vertical-align: middle;
     font-size: 30px;
-    margin-bottom: 20px;
-    margin-left: 40px;
+}
+/* boold=700 */
+/* normal=400 */
+
+/* commos */
+
+.conteiner{
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
 }
 
-.entities-done{
-    color: green;
-    width: 50px;
-    height: 50px;
-    border: green solid 1px;
+/* action */
+
+.action{
+    padding: 10px 20px;
+    border-bottom: 4px solid lightgrey;
+}
+
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-filled{
+    background-color: lime;
+    color: white;
+    border: 1px solid currentColor;
+
+}
+
+.btn-outlined{
+    background-color: gray;
+    color: white; 
+    border: 1px solid currentColor;
+}
+
+/* tasks */
+
+.tasks{
+    padding: 30px 50px;
+}
+
+.task-group{
+    color: darkblue;
+    margin-bottom: 25px;
+}
+
+li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.circle{
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 5px;
     border-radius: 50%;
-}
-
-.entities-todo{
-    color:red;
-    width: 60px;
-    height: 60px;
-    border: red solid 1px;
-    border-radius: 50%;
-}
-
-.text{
-    font-size: 18px;
-}
-
-.badge { 
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    margin: 20px 20px;
-    background-color: dodgerblue;
-    border-radius: 10px;
-    line-height: 20px;
     text-align: center;
+    font-size: 10px;
+    vertical-align: middle;
 }
 
-.badge-1 { 
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    margin: 20px 20px;
-    background-color: purple;
+.checked{
+    color: darkblue;
+    border: 1px solid currentColor;
+    line-height: 15px;
+}
+
+.delete{
+    color: red;
+    border: 1px solid currentColor;
+    line-height: 14px;
+}
+
+.tag{
+    padding: 5px 10px;
+    font-size: 10px;
+    color: white;
     border-radius: 10px;
-    line-height: 20px;
-    text-align: center;
 }
 
-.badge-2 { 
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    margin: 20px 20px;
-    background-color:green;
-    border-radius: 10px;
-    line-height: 20px;
-    text-align: center;
+.bg-type-1{
+    background-color: darkblue;
 }
 
-.badge-3 { 
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    margin: 20px 20px;
-    background-color:orange;
-    border-radius: 10px;
-    line-height: 20px;
-    text-align: center;
+.bg-type-2{
+background-color: darkgoldenrod;
 }
 
-.badge-4 { 
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    margin: 20px 20px;
-    background-color:palevioletred;
-    border-radius: 10px;
-    line-height: 20px;
-    text-align: center;
+.bg-type-3{
+background-color: chartreuse;
 }
-
-.badge-5 { 
-    display: inline-block;
-    width: 100px;
-    height: 20px;
-    margin: 20px 20px;
-    background-color:limegreen;
-    border-radius: 10px;
-    line-height: 20px;
-    text-align: center;
-}
-
